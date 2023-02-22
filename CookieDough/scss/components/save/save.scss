@@ -1,0 +1,19 @@
+@use "../../abstracts/colors";
+
+
+.buttonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save{
+    font-size: 100%;
+    height: min-content;
+    padding: 2rem;
+    background: map-get(colors.$button, "background");
+    color: whitesmoke;
+    border: none;
+    width: 20rem;
+ 
+}
